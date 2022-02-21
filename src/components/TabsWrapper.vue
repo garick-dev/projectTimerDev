@@ -18,7 +18,7 @@
 
   <div class="tabs">
     <ul class="tabs__header">
-      <li class="tabs__item disabled" v-for="title in tabTitles" :class="{active: selectedTitle === title}" :key="title" @click="selectedTitle = title">
+      <li class="tabs__item" v-for="title in tabTitles" :class="{active: selectedTitle === title}" :key="title" @click="selectedTitle = title">
         {{title}}
       </li>
     </ul>
